@@ -171,11 +171,3 @@ class OpenQQClient(object):
         return _http_request('%s%s' % (self.base_url, api), method, params, self.access_token)
 
 
-#client = OpenQQClient('100282726','06e35e2edd2b32950775b849a950f725','www.xulu.cc')
-
-#print client.get_auth_url()
-#print client.request_access_token('127086E038B5E6B7144ABBB28B5849C8')
-#client.set_access_token('2ED75E8EDB0CB67AEF0B3FDD2E4BAB89',float(12312312311111))
-#print client.request_openid()
-#client.set_openid('3915F0240562164F5515EAC0941E0C62')
-#client.request_api('get_user_info',{'format':'json'})
